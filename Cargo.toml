@@ -1,0 +1,21 @@
+[package]
+name = "learn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+envy = "0.4.2"
+futures-util = "0.3.30"
+serde = "1.0.204"
+serde_json = "1.0.120"
+solana-account-decoder = "2.0.2"
+solana-client = "2.0.2"
+solana-sdk = "2.0.2"
+spl-associated-token-account = "4.0.0"
+spl-token = "6.0.0"
+tokio = "1.38.0"
+solana-transaction-status = "2.0.2"
+colored = "2.0"
+url = { version = "2.5.2", features = ["serde"] }
+mpl-token-metadata = "4.1.2"
